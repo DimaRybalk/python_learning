@@ -37,14 +37,25 @@ currency_list = [
     }
 ]
 
+history = []
+counter = 0
 
 def converter(amount,source):
+    global counter
     for currency in currency_list:
         if currency["base"] == source:
+            results = {}
             for code,rate in currency["rates"].items():
                    if code != source:
+                        results[code] =  amount * rate
                         print(f"{amount * rate:.2f} {code}")
-
+            counter += 1                
+            history.append({
+                "operation number" : counter,
+                "amount": amount,
+                "source": source,
+                "results": results
+                                    })
 
 def amount_validator():
     while True:
@@ -69,11 +80,25 @@ def currency_validator(prompt):
                 print("Введіть валюту зі списку:", ", ".join(available_bases))
     
 
-amount = amount_validator()
-source_currency = currency_validator("Введіть назву валюти з якої хочете перевести(USD/EUR/JPY/UAH): ")
 
+while True:
+    amount = amount_validator()
+    source_currency = currency_validator("Введіть назву валюти з якої хочете перевести(USD/EUR/JPY/UAH): ")
+    converter(amount,source_currency)
 
-converter(amount,source_currency)
+    while True:
+        print("-" * 15)
+        again = input("Play again? (y/n): ").lower()
+        print("-" * 15)
+        if again == 'n':
+            print("Thanks for playing")
+            print("-" * 15)
+            print(history)
+            exit()
+        elif again == "y":
+            break 
+        else:
+            print("You need to type only y/n")
 
 
 
