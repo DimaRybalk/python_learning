@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FastAPI ToDo Frontend</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="app" id="app">
+    <h1>FastAPI Todo</h1>
+    <section id="auth-section">
+      <div id="register-panel">
+        <h2>Registration</h2>
+        <input id="reg-email" type="email" placeholder="Email" />
+        <input id="reg-password" type="password" placeholder="Password" />
+        <button id="btn-register">Register</button>
+      </div>
+      <div id="login-panel">
+        <h2>Login</h2>
+        <input id="login-email" type="email" placeholder="Email" />
+        <input id="login-password" type="password" placeholder="Password" />
+        <button id="btn-login">Login</button>
+      </div>
+      <div id="auth-msg" class="message"></div>
+    </section>
+
+    <section id="task-section" class="hidden">
+      <div class="user-box">
+        <p id="user-info"></p>
+        <button id="btn-logout">Logout</button>
+      </div>
+      <div id="task-form">
+        <h2>Add Task</h2>
+        <input id="task-name" type="text" placeholder="Task name" />
+        <input id="task-desc" type="text" placeholder="Task description" />
+        <button id="btn-add-task">Add Task</button>
+      </div>
+      <div id="task-msg" class="message"></div>
+      <div id="tasks-list"></div>
+    </section>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

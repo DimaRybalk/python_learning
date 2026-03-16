@@ -1,0 +1,16 @@
+:root { font-family: Arial, Helvetica, sans-serif; font-size: 16px; }
+body { background: #f8fafc; margin: 0; min-height: 100vh; }
+.app { max-width: 850px; margin: 0 auto; padding: 2rem; }
+h1 { text-align: center; } 
+section { background: #fff; border: 1px solid #dadce0; border-radius: 8px; padding: 1rem; margin-top: 1rem; }
+input { margin-bottom: 0.5rem; width: 100%; padding: .6rem; border: 1px solid #cdd3db; border-radius: 4px; }
+button { background: #007bff; border: none; color: #fff; border-radius: 4px; padding: 0.6rem 1rem; cursor: pointer; }
+button:hover { background: #0056b3; }
+.message { margin: .5rem 0; min-height: 1.5rem; }
+.hidden { display: none; }
+.task-card { padding: .7rem; border: 1px solid #d1d8e0; margin-bottom: .6rem; border-radius: 6px; }
+.task-card.completed { background: #e7f6e7; }
+.task-card h3 { margin: 0; }
+.task-actions { margin-top: .4rem; }
+.task-actions button { margin-right: .4rem; }
+.user-box { display:flex; justify-content:space-between; align-items:center; }
