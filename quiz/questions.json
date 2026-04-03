@@ -1,0 +1,517 @@
+
+{
+  "general knowledge": [
+    {
+      "question": "What is the capital of France?",
+      "options": {
+        "a": "Berlin",
+        "b": "Madrid",
+        "c": "Paris",
+        "d": "Rome"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "question": "How many continents are there on Earth?",
+      "options": {
+        "a": "5",
+        "b": "6",
+        "c": "7",
+        "d": "8"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "question": "What is the largest ocean in the world?",
+      "options": {
+        "a": "Atlantic Ocean",
+        "b": "Indian Ocean",
+        "c": "Arctic Ocean",
+        "d": "Pacific Ocean"
+      },
+      "correct_answer": "d"
+    },
+    {
+      "question": "Which country has the largest population?",
+      "options": {
+        "a": "USA",
+        "b": "India",
+        "c": "China",
+        "d": "Russia"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "question": "What is the tallest mountain in the world?",
+      "options": {
+        "a": "K2",
+        "b": "Mount Everest",
+        "c": "Kangchenjunga",
+        "d": "Makalu"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "question": "What currency is used in Japan?",
+      "options": {
+        "a": "Yen",
+        "b": "Won",
+        "c": "Dollar",
+        "d": "Euro"
+      },
+      "correct_answer": "a"
+    },
+    {
+      "question": "Which language is spoken in Brazil?",
+      "options": {
+        "a": "Spanish",
+        "b": "English",
+        "c": "Portuguese",
+        "d": "French"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "question": "How many days are there in a leap year?",
+      "options": {
+        "a": "365",
+        "b": "366",
+        "c": "364",
+        "d": "360"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "question": "What is the smallest country in the world?",
+      "options": {
+        "a": "Monaco",
+        "b": "Malta",
+        "c": "Vatican City",
+        "d": "Liechtenstein"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "question": "Which planet is closest to the Sun?",
+      "options": {
+        "a": "Venus",
+        "b": "Earth",
+        "c": "Mars",
+        "d": "Mercury"
+      },
+      "correct_answer": "d"
+    }
+  ],
+
+  "technology": [
+    {
+      "question": "What does CPU stand for?",
+      "options": {
+        "a": "Central Process Unit",
+        "b": "Central Processing Unit",
+        "c": "Computer Personal Unit",
+        "d": "Central Power Unit"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "question": "What company developed the iPhone?",
+      "options": {
+        "a": "Google",
+        "b": "Microsoft",
+        "c": "Apple",
+        "d": "Samsung"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "question": "What does HTML stand for?",
+      "options": {
+        "a": "Hyper Trainer Marking Language",
+        "b": "Hyper Text Marketing Language",
+        "c": "Hyper Text Markup Language",
+        "d": "High Text Markup Language"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "question": "What is the main function of an operating system?",
+      "options": {
+        "a": "Run games",
+        "b": "Manage hardware and software",
+        "c": "Create websites",
+        "d": "Store files only"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "question": "Which device stores data permanently?",
+      "options": {
+        "a": "RAM",
+        "b": "CPU",
+        "c": "Hard Drive",
+        "d": "Cache"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "question": "What does AI stand for?",
+      "options": {
+        "a": "Automatic Information",
+        "b": "Artificial Intelligence",
+        "c": "Advanced Interface",
+        "d": "Active Internet"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "question": "What does USB stand for?",
+      "options": {
+        "a": "Universal Serial Bus",
+        "b": "United System Board",
+        "c": "Universal Storage Base",
+        "d": "User System Bus"
+      },
+      "correct_answer": "a"
+    },
+    {
+      "question": "What is cloud computing?",
+      "options": {
+        "a": "Weather prediction",
+        "b": "Online data storage and services",
+        "c": "Computer repair",
+        "d": "Gaming technology"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "question": "Which language is primarily used for web pages?",
+      "options": {
+        "a": "Python",
+        "b": "HTML",
+        "c": "C++",
+        "d": "Java"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "question": "What is a smartphone?",
+      "options": {
+        "a": "A basic phone",
+        "b": "A tablet",
+        "c": "A mobile device with advanced features",
+        "d": "A laptop"
+      },
+      "correct_answer": "c"
+    }
+  ],
+  "science": [
+    {
+      "question": "What is the chemical symbol for water?",
+      "options": {
+        "a": "O2",
+        "b": "H2",
+        "c": "H2O",
+        "d": "CO2"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "question": "Which planet is known as the Red Planet?",
+      "options": {
+        "a": "Venus",
+        "b": "Mars",
+        "c": "Jupiter",
+        "d": "Saturn"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "question": "What gas do plants absorb from the atmosphere?",
+      "options": {
+        "a": "Oxygen",
+        "b": "Nitrogen",
+        "c": "Carbon Dioxide",
+        "d": "Hydrogen"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "question": "What force keeps us on the ground?",
+      "options": {
+        "a": "Magnetism",
+        "b": "Friction",
+        "c": "Gravity",
+        "d": "Pressure"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "question": "Which organ pumps blood through the body?",
+      "options": {
+        "a": "Lungs",
+        "b": "Brain",
+        "c": "Heart",
+        "d": "Liver"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "question": "What is the hardest natural substance?",
+      "options": {
+        "a": "Gold",
+        "b": "Iron",
+        "c": "Diamond",
+        "d": "Quartz"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "question": "What part of the body is responsible for breathing?",
+      "options": {
+        "a": "Heart",
+        "b": "Lungs",
+        "c": "Kidneys",
+        "d": "Stomach"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "question": "What type of energy comes from the Sun?",
+      "options": {
+        "a": "Wind energy",
+        "b": "Solar energy",
+        "c": "Thermal energy",
+        "d": "Nuclear energy"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "question": "What is the boiling point of water (°C)?",
+      "options": {
+        "a": "90",
+        "b": "95",
+        "c": "100",
+        "d": "110"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "question": "Which planet has the most moons?",
+      "options": {
+        "a": "Earth",
+        "b": "Mars",
+        "c": "Jupiter",
+        "d": "Venus"
+      },
+      "correct_answer": "c"
+    }
+  ],
+
+  "history": [
+    {
+      "question": "Who was the first President of the United States?",
+      "options": {
+        "a": "Abraham Lincoln",
+        "b": "George Washington",
+        "c": "Thomas Jefferson",
+        "d": "John Adams"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "question": "In which year did World War II end?",
+      "options": {
+        "a": "1943",
+        "b": "1944",
+        "c": "1945",
+        "d": "1946"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "question": "Which civilization built the pyramids?",
+      "options": {
+        "a": "Romans",
+        "b": "Greeks",
+        "c": "Egyptians",
+        "d": "Mayans"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "question": "Who discovered America?",
+      "options": {
+        "a": "Marco Polo",
+        "b": "Christopher Columbus",
+        "c": "Vasco da Gama",
+        "d": "Ferdinand Magellan"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "question": "What wall fell in 1989?",
+      "options": {
+        "a": "Great Wall",
+        "b": "Berlin Wall",
+        "c": "Iron Curtain",
+        "d": "Hadrian's Wall"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "question": "Who was the first man on the Moon?",
+      "options": {
+        "a": "Buzz Aldrin",
+        "b": "Yuri Gagarin",
+        "c": "Neil Armstrong",
+        "d": "Michael Collins"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "question": "Which empire was ruled by Julius Caesar?",
+      "options": {
+        "a": "Greek Empire",
+        "b": "Roman Empire",
+        "c": "Ottoman Empire",
+        "d": "Persian Empire"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "question": "What year did the Titanic sink?",
+      "options": {
+        "a": "1910",
+        "b": "1911",
+        "c": "1912",
+        "d": "1913"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "question": "Which country started the Industrial Revolution?",
+      "options": {
+        "a": "France",
+        "b": "Germany",
+        "c": "United Kingdom",
+        "d": "USA"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "question": "Who was known as the Iron Lady?",
+      "options": {
+        "a": "Angela Merkel",
+        "b": "Margaret Thatcher",
+        "c": "Queen Elizabeth II",
+        "d": "Hillary Clinton"
+      },
+      "correct_answer": "b"
+    }
+  ],
+
+  "entertainment": [
+    {
+      "question": "Who played Harry Potter in the movies?",
+      "options": {
+        "a": "Elijah Wood",
+        "b": "Daniel Radcliffe",
+        "c": "Tom Holland",
+        "d": "Rupert Grint"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "question": "Which movie features Darth Vader?",
+      "options": {
+        "a": "Star Trek",
+        "b": "Star Wars",
+        "c": "Avatar",
+        "d": "Dune"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "question": "Which singer is known as the King of Pop?",
+      "options": {
+        "a": "Elvis Presley",
+        "b": "Prince",
+        "c": "Michael Jackson",
+        "d": "Justin Bieber"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "question": "What is the name of the wizard school in Harry Potter?",
+      "options": {
+        "a": "Beauxbatons",
+        "b": "Durmstrang",
+        "c": "Hogwarts",
+        "d": "Ilvermorny"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "question": "Who directed the movie Titanic?",
+      "options": {
+        "a": "Steven Spielberg",
+        "b": "James Cameron",
+        "c": "Christopher Nolan",
+        "d": "Ridley Scott"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "question": "Which video game features Mario?",
+      "options": {
+        "a": "Sonic",
+        "b": "Zelda",
+        "c": "Super Mario",
+        "d": "Minecraft"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "question": "Which TV series features Walter White?",
+      "options": {
+        "a": "Prison Break",
+        "b": "Breaking Bad",
+        "c": "The Sopranos",
+        "d": "Better Call Saul"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "question": "What animated movie features Olaf the snowman?",
+      "options": {
+        "a": "Ice Age",
+        "b": "Frozen",
+        "c": "Shrek",
+        "d": "Toy Story"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "question": "Which superhero is known as the Dark Knight?",
+      "options": {
+        "a": "Superman",
+        "b": "Iron Man",
+        "c": "Batman",
+        "d": "Spider-Man"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "question": "What movie is the highest-grossing of all time?",
+      "options": {
+        "a": "Titanic",
+        "b": "Avengers: Endgame",
+        "c": "Avatar",
+        "d": "Star Wars: The Force Awakens"
+      },
+      "correct_answer": "c"
+    }
+  ]
+}
+

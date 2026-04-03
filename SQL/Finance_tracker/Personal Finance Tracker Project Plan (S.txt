@@ -1,0 +1,101 @@
+Personal Finance Tracker Project Plan (SQLite + OOP + CRUD)
+Project Goal
+
+Build a console-based Personal Finance Tracker application using:
+- Python (OOP principles)
+- SQLite database
+- CRUD operations
+- Date handling
+- Clean architecture (Models, Repositories, Services)
+
+This project prepares you for FastAPI backend development.
+
+Database Schema
+
+Table: users
+- id TEXT PRIMARY KEY
+- email TEXT UNIQUE NOT NULL
+- password TEXT NOT NULL
+- created_at TEXT NOT NULL
+
+Table: categories
+- id TEXT PRIMARY KEY
+- name TEXT NOT NULL
+- type TEXT CHECK(type IN ('income','expense')) NOT NULL
+
+Table: transactions
+- id TEXT PRIMARY KEY
+- user_id TEXT NOT NULL
+- category_id TEXT NOT NULL
+- amount REAL NOT NULL CHECK(amount > 0)
+- date TEXT NOT NULL
+- description TEXT
+- created_at TEXT NOT NULL
+- FOREIGN KEY(user_id) REFERENCES users(id)
+- FOREIGN KEY(category_id) REFERENCES categories(id)
+
+Project Structure
+
+project/
+│
+├── models/
+│   ├── user.py
+│   ├── category.py
+│   └── transaction.py
+│
+├── repositories/
+│   ├── user_repository.py
+│   ├── category_repository.py
+│   └── transaction_repository.py
+│
+├── services/
+│   └── finance_service.py
+│
+├── database.py
+└── main.py
+
+Day 1 - Database Setup
+
+1. Create database.py
+2. Connect to SQLite
+3. Create tables if not exist
+4. Test DB creation in main.py
+
+Day 2 - Models + User Repository
+
+1. Create User model
+2. Implement UserRepository:
+   - create_user
+   - get_by_email
+   - delete_user
+3. Add password hashing
+4. Test user registration
+
+Day 3 - Categories + Transactions CRUD
+
+1. Create Category model + repository
+2. Implement:
+   - create_category
+   - get_all_categories
+   - delete_category
+
+3. Create Transaction model + repository
+4. Implement:
+   - add_transaction
+   - get_by_user
+   - update_transaction
+   - delete_transaction
+
+Day 4 - Date Filtering + Statistics
+
+1. Store dates in ISO format (YYYY-MM-DD)
+2. Implement:
+   - get_transactions_by_date_range
+   - get_today_transactions
+   - get_this_month_transactions
+
+3. Add statistics methods:
+   - get_total_income
+   - get_total_expense
+   - get_balance
+   - get_statistics_by_category
